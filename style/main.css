@@ -1,0 +1,29 @@
+#main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#tables {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+table, tr, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0;
+}
+
+td input,
+td button,
+th input,
+th button {
+  margin: 0;
+  border: none;
+}
+
+table button {
+  width: 100%;
+}
